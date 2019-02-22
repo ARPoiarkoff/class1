@@ -12,11 +12,12 @@ div {
 
 h1 {
     display:inline;
+    text-align:left;
 }
 
 h2 {
     display:inline;
-    float:right;
+    text-align:right;
 }
 
 
