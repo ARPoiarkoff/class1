@@ -10,15 +10,14 @@ div {
     
 }
 
-h1,h2{display:inline;
-
-}
 h1 {
     text-align: left;
+    display:inline;
 }
 
 h2 {
     text-align: right;
+    display:inline;
 }
 
 ol {
