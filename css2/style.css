@@ -12,12 +12,12 @@ div {
 
 h1 {
     display: inline;
-    text-align: left;
+    
 }
 
 h2 {
     display: inline;
-    text-align: right;
+    padding-left: 75%;
 }
 
 
