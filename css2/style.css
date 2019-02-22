@@ -2,14 +2,17 @@
 
 body {background-color: teal;}
 
-h1,h2 {
+div {
     background-color: #ffcc00;
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    display:inline;
+    
 }
 
+h1,h2{display:inline;
+
+}
 h2{text-align: right}
 
 ol {
