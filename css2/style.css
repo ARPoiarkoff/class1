@@ -6,8 +6,8 @@ body {background-color: teal;}
 div {
     background-color: #ffcc00;
     color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1 {
