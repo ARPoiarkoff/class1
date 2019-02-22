@@ -3,23 +3,14 @@
 body {background-color: teal;}
 
 
-h1 {
+div {
     background-color: #ffcc00;
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: left;
     display:inline;
 }
 
-h2 {
-    background-color: #ffcc00;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: right;
-    display:inline;
-}
 
 ol {
 
