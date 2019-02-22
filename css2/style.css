@@ -2,20 +2,21 @@
 
 body {background-color: teal;}
 
-div {
+
+h1 {
     background-color: #ffcc00;
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-}
-
-h1 {
     text-align: left;
     display:inline;
 }
 
 h2 {
+    background-color: #ffcc00;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: right;
     display:inline;
 }
