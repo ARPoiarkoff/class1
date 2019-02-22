@@ -2,11 +2,12 @@
 
 body {background-color: teal;}
 
-div {
+h1,h2 {
     background-color: #ffcc00;
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
+    display:inline;
 }
 
 h2{text-align: right}
