@@ -1,5 +1,5 @@
 // program data:
-var number = 4;
+var number = Math.floor(Math.random() * 100) + 1;
 var guess;
 var limit = 5;
 var won =  false;
@@ -35,7 +35,7 @@ for (i = 0; i <= limit; i++)
 // if the user ran out of tries, let them know the game is over
 if(!won)
 {
-    document.write("Sorry, you ran out of tries. Game over.");
+    document.write("Sorry, you ran out of tries. \nThe number was: " + number + "\nGame over.");
 }
 
 function isPreviousGuess()
@@ -49,7 +49,7 @@ function isPreviousGuess()
         }
         
     }
-    
+
     return false;
     
 }
