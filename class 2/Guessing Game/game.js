@@ -20,7 +20,7 @@ for (i = 0; i <= limit; i++)
     }
     else if(isPreviousGuess(guess) == true)
     {
-        i=i-1;
+        i--;
         alert("You have already guessed this number"+ "\nTries remaining: " + (limit - i));
         
     }
