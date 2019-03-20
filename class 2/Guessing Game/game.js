@@ -28,7 +28,7 @@ for (i = 0; i <= limit; i++)
     else
     {
         guesses[i] = guess;
-        alert("incorrect. \nYou have guessed: " + guesses.toString() + "\nTries remaining: " + (limit - i));
+        alert("Incorrect. \nYou have guessed: " + guesses.toString() + "\nTries remaining: " + (limit - i));
     }
 }
 
