@@ -4,13 +4,12 @@ var guess;
 var limit = 5;
 var won =  false;
 var guesses = [];
-var previous = false;
 
-for (i = 1; i <= limit; i++)
+for (i = 0; i <= limit; i++)
 {
     // prompt user for their guess 
     guess = parseInt(prompt("Guess a number"));
-    previous = isPreviousGuess(guess);
+    
 
     // if correct: let the user know they won
     if(guess == number)
@@ -19,7 +18,7 @@ for (i = 1; i <= limit; i++)
         won = true;
         break;
     }
-    else if(previous == true)
+    else if(isPreviousGuess(guess) == true)
     {
         i=i-1;
         alert("You have already guessed this number"+ "\nTries remaining: " + (limit - i));
