@@ -12,7 +12,6 @@ for (i = 1; i <= limit; i++)
     guess = parseInt(prompt("Guess a number"));
     previous = isPreviousGuess(guess);
 
-
     // if correct: let the user know they won
     if(guess == number)
     {
@@ -42,7 +41,7 @@ if(!won)
 
 function isPreviousGuess(guess)
 {
-    for(i = 1; i < guesses.length; i++)
+    for(i = 0; i < guesses.length; i++)
     {
         if(guesses[i] == guess)
         {
