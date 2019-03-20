@@ -24,7 +24,6 @@ for (i = 1; i <= limit; i++)
     if(previous == true)
     {
         alert("You have already guessed this number");
-        break;
     }
      // if incorrect: add number to guesses array
     else
@@ -49,7 +48,9 @@ function isPreviousGuess(guess)
             return true;
         }
         else
-        {return false;}
+        {
+            return false;
+        }
     }
     
 }
