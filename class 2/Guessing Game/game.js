@@ -44,6 +44,8 @@ function isPreviousGuess()
         {
             return true;
         }
+        else
+        {return false;}
     }
-    return false;
+    
 }
