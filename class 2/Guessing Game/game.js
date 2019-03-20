@@ -20,8 +20,7 @@ for (i = 1; i <= limit; i++)
         won = true;
         break;
     }
-   
-    if(previous == true)
+    else if(previous == true)
     {
         alert("You have already guessed this number");
     }
