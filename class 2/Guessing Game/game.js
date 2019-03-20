@@ -19,7 +19,7 @@ for (i = 1; i <= limit; i++)
         break;
     }
     // if incorrect: add number to guesses array
-    else if(isPreviousGuess(guess)==true)
+    else if(isPreviousGuess(guess))
     {
         alert("You have already guessed this number");
     }
