@@ -21,9 +21,10 @@ for (i = 1; i <= limit; i++)
         break;
     }
     // if incorrect: add number to guesses array
-    else if(previous == true)
+    if(previous == true)
     {
         alert("You have already guessed this number");
+        break;
     }
     else
     {
