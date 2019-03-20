@@ -5,7 +5,7 @@ var limit = 5;
 var won =  false;
 var guesses = [];
 
-for (i = 0; i <= limit; i++)
+for (i = 0; i < limit; i++)
 {
     // prompt user for their guess 
     guess = parseInt(prompt("Guess a number"));
