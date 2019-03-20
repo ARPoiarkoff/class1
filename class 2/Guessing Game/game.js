@@ -38,22 +38,17 @@ if(!won)
     document.write("Sorry, you ran out of tries. Game over.");
 }
 
-function isPreviousGuess(guess)
+function isPreviousGuess(number)
 {
     for(x = 0; x < guesses.length; x++)
     {
-        if(guesses[x] == guess)
+        if(guesses[x] == number)
         {
             return true;
-        }
-        else
-        {
-            return false;
+            break;
         }
       
-       
-       
-       
+        return false;  
     }
     
 }
