@@ -1,5 +1,5 @@
 // program data:
-var number = Math.floor(Math.random() * 100);
+var number = 4;
 var guess;
 var limit = 5;
 var won =  false;
@@ -22,7 +22,9 @@ for (i = 1; i <= limit; i++)
     }
     else if(previous == true)
     {
-        alert("You have already guessed this number");
+        i=i-1;
+        alert("You have already guessed this number"+ "\nTries remaining: " + (limit - i));
+        
     }
      // if incorrect: add number to guesses array
     else
