@@ -18,7 +18,7 @@ for (i = 0; i <= limit; i++)
         won = true;
         break;
     }
-    else if(isPreviousGuess(guess) == true)
+    else if(isPreviousGuess() == true)
     {
         i--;
         alert("You have already guessed this number"+ "\nTries remaining: " + (limit - i));
@@ -38,11 +38,11 @@ if(!won)
     document.write("Sorry, you ran out of tries. Game over.");
 }
 
-function isPreviousGuess(number)
+function isPreviousGuess()
 {
     for(x = 0; x < guesses.length; x++)
     {
-        if(guesses[x] == number)
+        if(guesses[x] == guess)
         {
             return true;
             break;
