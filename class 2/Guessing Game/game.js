@@ -47,8 +47,9 @@ function isPreviousGuess()
             return true;
             break;
         }
-      
-        return false;  
+        
     }
+    
+    return false;
     
 }
