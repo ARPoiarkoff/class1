@@ -41,9 +41,9 @@ if(!won)
 
 function isPreviousGuess(guess)
 {
-    for(i = 0; i < guesses.length; i++)
+    for(x = 0; x < guesses.length; x++)
     {
-        if(guesses[i] == guess)
+        if(guesses[x] == guess)
         {
             return true;
         }
