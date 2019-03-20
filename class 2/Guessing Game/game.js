@@ -10,6 +10,7 @@ for (i = 1; i <= limit; i++)
     // prompt user for their guess 
     guess = parseInt(prompt("Guess a number"));
 
+
     // if correct: let the user know they won
     if(guess == number)
     {
@@ -18,6 +19,10 @@ for (i = 1; i <= limit; i++)
         break;
     }
     // if incorrect: add number to guesses array
+    else if(isPreviousGuess(guess)==true)
+    {
+        alert("You have already guessed this number");
+    }
     else
     {
         guesses[i] = guess;
@@ -31,7 +36,8 @@ if(!won)
     document.write("Sorry, you ran out of tries. Game over.");
 }
 
-function isPreviousGuess(){
+function isPreviousGuess()
+{
     for(i = 0; i < guesses.length; i++)
     {
         if(guesses[i] = guess)
