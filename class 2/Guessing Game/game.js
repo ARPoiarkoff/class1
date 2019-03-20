@@ -38,7 +38,7 @@ if(!won)
 
 function isPreviousGuess()
 {
-    for(i = 0; i < guesses.length; i++)
+    for(i = 1; i < guesses.length; i++)
     {
         if(guesses[i] = guess)
         {
