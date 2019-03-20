@@ -46,9 +46,13 @@ function isPreviousGuess(guess)
         {
             return true;
         }
+        else
+        {
+            return false;
+        }
       
        
-        return false;
+       
        
     }
     
