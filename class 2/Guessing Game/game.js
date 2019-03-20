@@ -3,7 +3,8 @@ var number = 4;
 var guess;
 var limit = 5;
 
-for (i = 1; i <= limit; i++){
+for (i = 1; i <= limit; i++)
+    {
     // prompt user for their guess 
     guess = prompt("Guess a number");
 
@@ -13,8 +14,9 @@ for (i = 1; i <= limit; i++){
         break;
     }
     // if incorrect: let the user know how  many tries they have remaining
-    else{
-        alert("incorrect. \nTries remaining: " + (limit - i)");
+    else
+    {
+        alert("incorrect. \nTries remaining: " + (limit - i));
     }
 }
 
