@@ -15,6 +15,12 @@ addButton.addEventListener("click", function(){
     newItem.appendChild(taskText);
     // clear text input box
     taskInput.value = "";
+    // add remove option for new item
+    var removeButton = document.createElement("BUTTON");
+    removeButton.innerHTML = "Done";
+    removeButton.className = "remove";
+    removeButton.addEventListener("click", removeTask);
+    newItem.appendChild(removeButton);
     taskList.appendChild(newItem);
   }
   else{
@@ -26,3 +32,10 @@ addButton.addEventListener("click", function(){
 clearButton.addEventListener("click", function(){
   taskList.innerHTML = "";
 });
+
+// remove a task from the list
+function removeTask(e){
+  // get the parent list item to remove
+  var taskItem = e.target.parentElement;
+  taskList.removeChild(taskItem); 
+}
